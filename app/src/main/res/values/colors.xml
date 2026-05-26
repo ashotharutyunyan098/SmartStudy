@@ -1,0 +1,14 @@
+<resources>
+    <color name="prussianBlue">#001233</color>
+    <color name="regalNavy">#002855</color>
+    <color name="smartBlue">#0466c8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="coolSteel">#979dac</color>
+    <color name="twilightIndigo">#33415c</color>
+    <color name="veryLightBlue">#E8F4FD</color>
+    <color name="goldenCream">#FEF9F0</color>
+    <color name="lilacWhisper">#F2EEFF</color>
+    <color name="lightGreen">#E6F6F4</color>
+    <color name="creamWhite">#F0F0F0</color>
+    <color name="completedGreen">#2ecc71</color>
+</resources>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back"
+            android:textSize="16sp"
+            android:textColor="@color/smartBlue"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Grade 1"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/prussianBlue"
+            android:paddingStart="16dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="24dp"
+            android:paddingBottom="40dp">
+
+            <!-- Node 1 - LEFT -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="170dp"
+                    android:background="@color/veryLightBlue"
+                    android:layout_centerHorizontal="true"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardTopic1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="6dp"
+                    app:cardBackgroundColor="@color/smartBlue">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView
+                            android:id="@+id/tvTopicProgress1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvTopic1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cardTopic1"
+                    android:layout_alignStart="@id/cardTopic1"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="Topic 1"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/prussianBlue"/>
+
+            </RelativeLayout>
+
+            <!-- Node 2 - RIGHT -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="170dp"
+                    android:background="@color/veryLightBlue"
+                    android:layout_centerHorizontal="true"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardTopic2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="40dp"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="6dp"
+                    app:cardBackgroundColor="@color/smartBlue">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView
+                            android:id="@+id/tvTopicProgress2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvTopic2"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cardTopic2"
+                    android:layout_alignStart="@id/cardTopic2"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="Topic 2"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/prussianBlue"/>
+
+            </RelativeLayout>
+
+            <!-- Node 3 - LEFT -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="170dp"
+                    android:background="@color/veryLightBlue"
+                    android:layout_centerHorizontal="true"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardTopic3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="6dp"
+                    app:cardBackgroundColor="@color/smartBlue">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView
+                            android:id="@+id/tvTopicProgress3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvTopic3"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cardTopic3"
+                    android:layout_alignStart="@id/cardTopic3"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="Topic 3"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/prussianBlue"/>
+
+            </RelativeLayout>
+
+            <!-- Node 4 - RIGHT -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="170dp"
+                    android:background="@color/veryLightBlue"
+                    android:layout_centerHorizontal="true"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardTopic4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="40dp"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="6dp"
+                    app:cardBackgroundColor="@color/smartBlue">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView
+                            android:id="@+id/tvTopicProgress4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvTopic4"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cardTopic4"
+                    android:layout_alignStart="@id/cardTopic4"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="Topic 4"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/prussianBlue"/>
+
+            </RelativeLayout>
+
+            <!-- Node 5 - LEFT -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="170dp"
+                    android:background="@color/veryLightBlue"
+                    android:layout_centerHorizontal="true"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardTopic5"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="6dp"
+                    app:cardBackgroundColor="@color/smartBlue">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView
+                            android:id="@+id/tvTopicProgress5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvTopic5"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cardTopic5"
+                    android:layout_alignStart="@id/cardTopic5"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="Topic 5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/prussianBlue"/>
+
+            </RelativeLayout>
+
+            <!-- Node 6 - RIGHT -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="170dp"
+                    android:background="@color/veryLightBlue"
+                    android:layout_centerHorizontal="true"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardTopic6"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="40dp"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="6dp"
+                    app:cardBackgroundColor="@color/smartBlue">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView
+                            android:id="@+id/tvTopicProgress6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="6"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvTopic6"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cardTopic6"
+                    android:layout_alignStart="@id/cardTopic6"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="Topic 6"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/prussianBlue"/>
+
+            </RelativeLayout>
+
+            <!-- Node 7 - LEFT -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="170dp"
+                    android:background="@color/veryLightBlue"
+                    android:layout_centerHorizontal="true"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardTopic7"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="6dp"
+                    app:cardBackgroundColor="@color/smartBlue">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView
+                            android:id="@+id/tvTopicProgress7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="7"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvTopic7"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cardTopic7"
+                    android:layout_alignStart="@id/cardTopic7"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="Topic 7"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/prussianBlue"/>
+
+            </RelativeLayout>
+
+            <!-- Node 8 - RIGHT -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="170dp"
+                    android:background="@color/veryLightBlue"
+                    android:layout_centerHorizontal="true"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardTopic8"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="40dp"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="6dp"
+                    app:cardBackgroundColor="@color/smartBlue">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView
+                            android:id="@+id/tvTopicProgress8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="8"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvTopic8"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cardTopic8"
+                    android:layout_alignStart="@id/cardTopic8"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="Topic 8"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/prussianBlue"/>
+
+            </RelativeLayout>
+
+            <!-- Node 9 - LEFT -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="170dp"
+                    android:background="@color/veryLightBlue"
+                    android:layout_centerHorizontal="true"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardTopic9"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="6dp"
+                    app:cardBackgroundColor="@color/smartBlue">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView
+                            android:id="@+id/tvTopicProgress9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvTopic9"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cardTopic9"
+                    android:layout_alignStart="@id/cardTopic9"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="Topic 9"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/prussianBlue"/>
+
+            </RelativeLayout>
+
+            <!-- Node 10 - RIGHT -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp">
+
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="170dp"
+                    android:background="@color/veryLightBlue"
+                    android:layout_centerHorizontal="true"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardTopic10"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="40dp"
+                    app:cardCornerRadius="40dp"
+                    app:cardElevation="6dp"
+                    app:cardBackgroundColor="@color/smartBlue">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView
+                            android:id="@+id/tvTopicProgress10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvTopic10"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cardTopic10"
+                    android:layout_alignStart="@id/cardTopic10"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="Topic 10"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/prussianBlue"/>
+
+            </RelativeLayout>
+
+            <!-- TEST Node - CENTER -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardTest"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerInParent="true"
+                    app:cardCornerRadius="45dp"
+                    app:cardElevation="8dp"
+                    app:cardBackgroundColor="@color/regalNavy">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TEST"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

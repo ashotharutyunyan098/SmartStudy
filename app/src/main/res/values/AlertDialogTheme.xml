@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertDialogTheme" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="backgroundColor">@color/white</item>
+        <item name="colorPrimary">@color/regalNavy</item>
+    </style>
+</resources>

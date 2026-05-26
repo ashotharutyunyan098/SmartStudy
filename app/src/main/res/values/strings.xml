@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SmartStudy</string>
+    <string name="cd_history_button">history button</string>
+    <string name="cd_home_button">home button</string>
+    <string name="cd_keyboard_button">keyboard button</string>
+    <string name="cd_settings_button">settings button</string>
+    <string name="cd_camera_button">camera button</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="problem_text">Enter your problem</string>
+</resources>
