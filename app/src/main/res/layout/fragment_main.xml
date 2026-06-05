@@ -15,7 +15,6 @@
         android:paddingEnd="24dp"
         android:paddingBottom="24dp">
 
-        <!-- Mathematics -->
         <androidx.cardview.widget.CardView
             android:id="@+id/cardMath"
             android:layout_width="match_parent"
@@ -68,7 +67,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Algebra -->
         <androidx.cardview.widget.CardView
             android:id="@+id/cardAlgebra"
             android:layout_width="match_parent"
@@ -121,7 +119,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Geometry -->
         <androidx.cardview.widget.CardView
             android:id="@+id/cardGeometry"
             android:layout_width="match_parent"
@@ -173,7 +170,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Calculator -->
         <androidx.cardview.widget.CardView
             android:id="@+id/cardCalculator"
             android:layout_width="match_parent"

@@ -28,7 +28,6 @@ public class TestActivity extends AppCompatActivity {
     int currentIndex = 0;
     int correctAnswers = 0;
 
-    // Each item: [description, question, answer, docQuestionIndex]
     List<String[]> sessionQuestions = new ArrayList<>();
 
     FirebaseFirestore db;
@@ -84,18 +83,16 @@ public class TestActivity extends AppCompatActivity {
                         return;
                     }
 
-                    // Build full list of available questions with their original index
                     List<String[]> allAvailable = new ArrayList<>();
                     for (int i = 0; i < questions.size(); i++) {
                         allAvailable.add(new String[]{
-                                descriptions.get(i),   // [0] description
-                                questions.get(i),       // [1] question
-                                answers.get(i),         // [2] answer
-                                String.valueOf(i)       // [3] original index (for deletion)
+                                descriptions.get(i),
+                                questions.get(i),
+                                answers.get(i),
+                                String.valueOf(i)
                         });
                     }
 
-                    // Shuffle and pick up to 10
                     Collections.shuffle(allAvailable);
                     int count = Math.min(10, allAvailable.size());
                     sessionQuestions = allAvailable.subList(0, count);

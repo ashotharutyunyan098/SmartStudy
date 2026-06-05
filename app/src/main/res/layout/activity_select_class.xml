@@ -60,7 +60,8 @@
                 android:id="@+id/btnGrade1"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
                 app:cardBackgroundColor="@color/smartBlue">
@@ -103,7 +104,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Grade 2 - Locked -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnGrade2"
                 android:layout_width="match_parent"
@@ -150,12 +150,12 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Grade 3 - Locked -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnGrade3"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
                 app:cardBackgroundColor="@color/coolSteel">
@@ -197,12 +197,12 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Grade 4 - Locked -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnGrade4"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
                 app:cardBackgroundColor="@color/coolSteel">
@@ -244,12 +244,12 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Grade 5 - Locked -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnGrade5"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
                 app:cardBackgroundColor="@color/coolSteel">
@@ -291,12 +291,12 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Grade 6 - Locked -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnGrade6"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
                 app:cardBackgroundColor="@color/coolSteel">
@@ -338,12 +338,12 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Grade 7 - Unlocked -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnGrade7"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
                 app:cardBackgroundColor="@color/smartBlue">
@@ -385,12 +385,12 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Grade 8 - Locked -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnGrade8"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
                 app:cardBackgroundColor="@color/coolSteel">
@@ -432,12 +432,12 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Grade 9 - Locked -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnGrade9"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
                 app:cardBackgroundColor="@color/coolSteel">
@@ -479,12 +479,12 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Grade 10 - Locked -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnGrade10"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
                 app:cardBackgroundColor="@color/coolSteel">
@@ -526,12 +526,12 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Grade 11 - Locked -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnGrade11"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
                 app:cardBackgroundColor="@color/coolSteel">
@@ -573,12 +573,12 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Grade 12 - Locked -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/btnGrade12"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
                 app:cardBackgroundColor="@color/coolSteel">

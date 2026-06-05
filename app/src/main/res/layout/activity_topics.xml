@@ -50,7 +50,6 @@
             android:paddingTop="24dp"
             android:paddingBottom="40dp">
 
-            <!-- Node 1 - LEFT -->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="170dp">
@@ -101,7 +100,6 @@
 
             </RelativeLayout>
 
-            <!-- Node 2 - RIGHT -->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="170dp">
@@ -153,7 +151,6 @@
 
             </RelativeLayout>
 
-            <!-- Node 3 - LEFT -->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="170dp">
@@ -204,7 +201,6 @@
 
             </RelativeLayout>
 
-            <!-- Node 4 - RIGHT -->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="170dp">
@@ -256,7 +252,6 @@
 
             </RelativeLayout>
 
-            <!-- Node 5 - LEFT -->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="170dp">
@@ -307,7 +302,6 @@
 
             </RelativeLayout>
 
-            <!-- Node 6 - RIGHT -->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="170dp">
@@ -359,7 +353,6 @@
 
             </RelativeLayout>
 
-            <!-- Node 7 - LEFT -->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="170dp">
@@ -410,7 +403,6 @@
 
             </RelativeLayout>
 
-            <!-- Node 8 - RIGHT -->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="170dp">
@@ -462,7 +454,6 @@
 
             </RelativeLayout>
 
-            <!-- Node 9 - LEFT -->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="170dp">
@@ -513,7 +504,6 @@
 
             </RelativeLayout>
 
-            <!-- Node 10 - RIGHT -->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="170dp">
@@ -565,7 +555,6 @@
 
             </RelativeLayout>
 
-            <!-- TEST Node - CENTER -->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="120dp">

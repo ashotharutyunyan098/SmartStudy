@@ -73,7 +73,6 @@ public class CalculatorActivity extends AppCompatActivity {
         findViewById(R.id.btnBackspace).setOnClickListener(v -> {
             if (expression.length() > 0) {
                 String expr = expression.toString();
-                // Smart backspace: remove whole function name at end
                 String[] funcs = {"sqrt(", "sin(", "cos(", "tan(", "log(", "ln("};
                 boolean removed = false;
                 for (String func : funcs) {

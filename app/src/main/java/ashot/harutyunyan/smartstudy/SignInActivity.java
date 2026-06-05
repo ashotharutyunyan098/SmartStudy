@@ -46,7 +46,6 @@ public class SignInActivity extends AppCompatActivity {
                 return;
             }
 
-            // Disable button while signing in to prevent double-tap
             btnSignIn.setEnabled(false);
             btnSignIn.setText("Signing in…");
 

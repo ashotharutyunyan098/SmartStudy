@@ -46,7 +46,6 @@ public class SignUpActivity extends AppCompatActivity {
                 return;
             }
 
-            // Disable button to prevent double-tap
             btnSignUp.setEnabled(false);
             btnSignUp.setText("Creating account…");
 
